@@ -45,7 +45,7 @@ void display()
 void main()
 {
     int choice;
-    printf("Enter the size of queue: ");
+    printf("Enter the size of queue (not greater than 5): ");
     scanf("%d", &max);
 
     do
