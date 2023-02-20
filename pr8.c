@@ -13,7 +13,7 @@ void insert_front()
 
     struct Node *new_node = (struct Node *)malloc(sizeof(struct Node));
 
-    printf("Enter data to front: ");
+    printf("Enter data to insert at front: ");
     scanf("%d", &value);
 
     new_node->data = value;
@@ -29,7 +29,7 @@ void insert_end()
 
     struct Node *new_node = (struct Node *)malloc(sizeof(struct Node));
 
-    printf("Enter data: ");
+    printf("Enter data to insert at end: ");
     scanf("%d", &value);
 
     new_node->data = value;
